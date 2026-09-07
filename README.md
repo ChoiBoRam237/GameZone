@@ -12,6 +12,7 @@
 
 ### Language
 - Next.js (v16.3.4)
+- React (v19.2.8)
 - Typescript
 - TailwindCSS
 
@@ -20,5 +21,4 @@
 
 #### Tools
 - VSCode
-- Android Studio
 - Figma
