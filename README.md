@@ -11,7 +11,7 @@
 ### 개발환경 : Windows
 
 ### Language
-- Next.js
+- Next.js (v16.3.4)
 - Typescript
 - TailwindCSS
 
