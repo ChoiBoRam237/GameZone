@@ -1,15 +1,27 @@
 @import "tailwindcss";
 
 :root {
-    --background: #0C003F;
+    --primary: #0C003F;
+    --second: #7253FF;
+    --second-hover: #5C41D8;
 
+    --white-80: rgba(255, 255, 255, 0.8);
+
+    --font-pretendard-regular: 'Pretendard-Regular';
     --font-pretendard-bold: 'Pretendard-Bold';
     --font-montserrat-bold: 'Montserrat-Bold';
 }
 
 @theme {
+    --font-pretendard-regular: 'Pretendard-Regular', sans-serif;
     --font-pretendard-bold: 'Pretendard-Bold', sans-serif;
     --font-montserrat-bold: 'Montserrat-Bold', sans-serif;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('/fonts/Pretendard-Regular.ttf') format('truetype');
+    font-style: normal;
 }
 
 @font-face {
@@ -25,10 +37,14 @@
 }
 
 body {
-    background: var(--background);
+    background: var(--primary);
 }
 
 p {
     margin: 0;
     padding: 0;
+}
+
+button:hover {
+    cursor: pointer;
 }

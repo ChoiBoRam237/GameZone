@@ -19,6 +19,9 @@
 ### Package Manager
 - npm (v10.9.3)
 
+#### UI Library
+- lucide-react
+
 #### Tools
 - VSCode
 - Figma

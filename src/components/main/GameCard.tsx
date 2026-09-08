@@ -21,7 +21,7 @@ export default function GameCard(props: Props) {
                 <p className="font-montserrat-bold text-[#E1A743] text-2xl md:text-4xl xl:text-5xl">{props.title}</p>
                 
                 <button
-                    className="flex items-center justify-center w-18.25 h-10 md:w-43 md:h-12.5 xl:w-51 xl:h-15 rounded-lg md:rounded-[10px] bg-[#00BAE8] hover:bg-[#0094B9] hover:cursor-pointer"
+                    className="flex items-center justify-center w-18.25 h-10 md:w-43 md:h-12.5 xl:w-51 xl:h-15 rounded-lg md:rounded-[10px] bg-[#00BAE8] hover:bg-[#0094B9]"
                     onClick={props.onClick}
                 >
                     <p className="font-pretendard-bold text-lg md:text-2xl xl:text-[28px]">
