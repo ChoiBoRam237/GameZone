@@ -39,9 +39,7 @@
 
     --black-30: rgba(0, 0, 0, 0.3);
 
-    --font-pretendard-regular: 'Pretendard-Regular';
-    --font-pretendard-bold: 'Pretendard-Bold';
-    --font-montserrat-bold: 'Montserrat-Bold';
+    --button-disabled: #B5B5B5;
 }
 
 body {

@@ -15,27 +15,27 @@ export default function ItemList(props: Props) {
     const [updateContent, setUpdateContent] = useState<string>(""); // 업데이트 할 내용
 
     return (
-        <div className="w-full flex flex-col gap-2 md:gap-2.5 xl:w-93 xl:gap-3">
-            <p className="font-pretendard-bold text-white text-base whitespace-nowrap md:text-xl xl:text-2xl">리스트</p>
+        <div className="w-full flex flex-col gap-2 sm:gap-2.5 lg:w-93 lg:gap-3">
+            <p className="font-pretendard-bold text-white text-base whitespace-nowrap sm:text-xl lg:text-2xl">리스트</p>
 
-            <div className="w-full h-40 overflow-auto border border-(--second) rounded-sm md:h-50 md:rounded-md xl:h-90 xl:rounded-lg">
+            <div className="w-full h-40 overflow-auto border border-(--second) rounded-sm sm:h-50 sm:rounded-md lg:h-90 lg:rounded-lg">
                 {props.items.map((item, index) => (
                     <div
                         key={index}
-                        className="w-full h-auto flex items-center justify-between gap-2 border-b border-(--second) p-2 md:py-2.5 xl:py-3 xl:px-4.5"
+                        className="w-full h-auto flex items-center justify-between gap-2 border-b border-(--second) p-2 sm:py-2.5 lg:py-3 lg:px-4.5"
                     >
                         {updatedItem === item ? (
                             <input
                                 id="update-item"
-                                className="w-full outline-none font-pretendard-regular text-xs text-white md:text-sm xl:text-base"
+                                className="w-full outline-none font-pretendard-regular text-xs text-white sm:text-sm lg:text-base"
                                 value={updateContent}
                                 onChange={(e) => setUpdateContent(e.target.value)}
                             />
                         ) : (
-                            <p className="font-pretendard-regular text-xs text-white md:text-sm xl:text-base">{item}</p>
+                            <p className="font-pretendard-regular text-xs text-white sm:text-sm lg:text-base">{item}</p>
                         )}
 
-                        <div className="flex gap-0.5 md:gap-1">
+                        <div className="flex gap-0.5 sm:gap-1">
                             {updatedItem === item ? (
                                 <button
                                     className="w-auto h-auto flex items-center justify-center p-1 rounded-sm shrink-0 bg-[#2CDB00] hover:bg-[#27C400]"
@@ -49,7 +49,7 @@ export default function ItemList(props: Props) {
                                         setUpdateContent("");
                                     }}
                                 >
-                                    <Check className="size-3 md:size-3.5 xl:size-4" color="white" />
+                                    <Check className="size-3 sm:size-3.5 lg:size-4" color="white" />
                                 </button>
                             ) : (
                                 <button
@@ -59,7 +59,7 @@ export default function ItemList(props: Props) {
                                         setUpdateContent(item);
                                     }}
                                 >
-                                    <Pencil className="size-3 md:size-3.5 xl:size-4" color="white" />
+                                    <Pencil className="size-3 sm:size-3.5 lg:size-4" color="white" />
                                 </button>
                             )}
 
@@ -78,7 +78,7 @@ export default function ItemList(props: Props) {
                                     }
                                 }}
                             >
-                                <X className="size-3 md:size-3.5 xl:size-4" color="white" />
+                                <X className="size-3 sm:size-3.5 lg:size-4" color="white" />
                             </button>
                         </div>
                     </div>

@@ -9,14 +9,14 @@ export default function MainHeader() {
     const router = useRouter();
 
     return (
-        <header className="w-full h-auto bg-transparent py-4 md:py-6 xl:py-7">
+        <header className="w-full h-auto bg-transparent py-4 sm:py-6 lg:py-7">
             <button
                 className="flex items-center gap-2"
                 onClick={() => router.replace("/")}
             >
-                <Logo className="size-10 md:size-16" />
+                <Logo className="size-10 sm:size-16" />
                 
-                <p className="font-pretendard-bold bg-linear-to-r from-[#00F2FF] to-[#FF36EE] bg-clip-text text-transparent text-base/4 text-start md:text-2xl/6.5">
+                <p className="font-pretendard-bold bg-linear-to-r from-[#00F2FF] to-[#FF36EE] bg-clip-text text-transparent text-base/4 text-start sm:text-2xl/6.5">
                     보람찬<br/>게임 놀이터
                 </p>
             </button>

@@ -102,13 +102,13 @@ export default function RouletteBoard(props: Props) {
     }, [props.items]);
 
     return (
-        <div className="relative size-85.25 md:size-126 xl:size-146.25">
+        <div className="relative size-75 sm:size-120 lg:size-137.5">
             {/* 포인터 */}
             <div className="absolute z-1 top-2.5 left-1/2 -translate-x-1/2">
                 <MapPin
                     fill="#dab4fb"
                     stroke="#a034ff"
-                    className="size-5 md:size-6 xl:size-7"
+                    className="size-5 sm:size-6 lg:size-7"
                 />
             </div>
 

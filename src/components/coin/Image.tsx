@@ -9,7 +9,7 @@ export default function CoinImage() {
         <img
             src={coinImage.src}
             alt="동전 던지기"
-            className="w-21.5 h-26 shrink-0 md:absolute md:w-43.5 md:h-57 md:top-5 md:left-[50%] md:translate-x-[-50%] xl:w-52.75 xl:h-69.25"
+            className="w-21.5 h-26 shrink-0 sm:absolute sm:w-43.5 sm:h-57 sm:top-5 sm:left-[50%] sm:translate-x-[-50%] lg:w-52.75 lg:h-69.25"
         />
     );
 }

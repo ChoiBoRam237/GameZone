@@ -16,11 +16,11 @@ export default function RoulettePage() {
     const [resultPopupOpen, setResultPopupOpen] = useState<boolean>(false); // 결과 팝업 오픈 여부
 
     return (
-        <div className="size-full flex flex-col gap-3 md:gap-5 px-6 pb-15 md:px-12.5 xl:px-28">
+        <div className="size-full flex flex-col gap-3 sm:gap-5 px-6 pb-15 sm:px-12.5 lg:px-28">
             <MainHeader />
 
-            <div className="w-full flex flex-col-reverse items-center gap-12 md:gap-16 xl:flex-row xl:items-start xl:justify-between">
-                <div className="w-full flex flex-col gap-7 md:flex-row md:gap-16 xl:flex-col xl:gap-20">
+            <div className="w-full flex flex-col-reverse items-center gap-12 sm:gap-16 lg:flex-row lg:items-start lg:justify-between">
+                <div className="w-full flex flex-col gap-7 sm:flex-row sm:gap-16 lg:flex-col lg:gap-20">
                     {/* 아이템 추가하기 */}
                     <ItemAdd
                         items={items ?? []}
@@ -35,8 +35,8 @@ export default function RoulettePage() {
                 </div>
 
                 {/* 룰렛 */}
-                <div className="w-full flex flex-col items-center gap-1 md:gap-2 xl:gap-5">
-                    <p className="font-montserrat-bold text-[#E1A743] text-2xl md:text-[2rem]">랜덤 룰렛</p>
+                <div className="w-full flex flex-col items-center gap-1 sm:gap-2 lg:gap-5">
+                    <p className="font-montserrat-bold text-[#E1A743] text-2xl sm:text-[2rem]">랜덤 룰렛</p>
 
                     <div className="w-full flex justify-center">
                         <RouletteBoard

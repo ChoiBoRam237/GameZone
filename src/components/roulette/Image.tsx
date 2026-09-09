@@ -9,7 +9,7 @@ export default function RouletteImage() {
         <img
             src={rouletteImage.src}
             alt="룰렛"
-            className="size-24.5 shrink-0 md:size-64 md:absolute md:top-5 md:left-[50%] md:translate-x-[-50%] xl:size-77.5"
+            className="size-20 shrink-0 sm:size-55 lg:size-70"
         />
     );
 }
