@@ -10,6 +10,7 @@ interface Props {
     items: string[];
     selectedItem: string;
     setSelectedItem: React.Dispatch<React.SetStateAction<string>>;
+    onOpen: () => void;
 }
 
 const SIZE = 500;
@@ -120,11 +121,12 @@ export default function RouletteBoard(props: Props) {
                 }}
                 onTransitionEnd={() => {
                     setIsSpinning(false);
+                    props.onOpen();
                 }}
             >
                 <svg
                     viewBox={`0 0 ${SIZE} ${SIZE}`}
-                    className="w-full h-full block"
+                    className="size-full block"
                 >
                     {props.items.length === 0 ? (
                         <>
