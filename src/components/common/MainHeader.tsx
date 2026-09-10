@@ -16,7 +16,7 @@ export default function MainHeader() {
             >
                 <Logo className="size-10 sm:size-16" />
                 
-                <p className="font-pretendard-bold bg-linear-to-r from-[#00F2FF] to-[#FF36EE] bg-clip-text text-transparent text-base/4 text-start sm:text-2xl/6.5">
+                <p className="font-pretendard-extra-bold bg-linear-to-r from-[#00F2FF] to-[#FF36EE] bg-clip-text text-transparent text-base/4 text-start sm:text-2xl/6.5">
                     보람찬<br/>게임 놀이터
                 </p>
             </button>

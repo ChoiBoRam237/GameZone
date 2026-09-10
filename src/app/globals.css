@@ -17,9 +17,9 @@
 }
 
 @font-face {
-    font-family: 'Montserrat-Bold';
-    src: url('/fonts/Montserrat-Bold.ttf') format('truetype');
-    font-weight: 700;
+    font-family: 'Pretendard-ExtraBold';
+    src: url('/fonts/Pretendard-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
     font-style: normal;
     font-display: swap;
 }
@@ -27,7 +27,7 @@
 @theme {
     --font-pretendard-regular: 'Pretendard-Regular', sans-serif;
     --font-pretendard-bold: 'Pretendard-Bold', sans-serif;
-    --font-montserrat-bold: 'Montserrat-Bold', sans-serif;
+    --font-pretendard-extra-bold: 'Pretendard-ExtraBold', sans-serif;
 }
 
 @layer utilities {

@@ -36,7 +36,7 @@ export default function RoulettePage() {
 
                 {/* 룰렛 */}
                 <div className="w-full flex flex-col items-center gap-1 sm:gap-2 lg:gap-5">
-                    <p className="font-montserrat-bold text-[#E1A743] text-2xl sm:text-[2rem]">랜덤 룰렛</p>
+                    <p className="font-pretendard-bold text-[#E1A743] text-2xl sm:text-[2rem]">랜덤 룰렛</p>
 
                     <div className="w-full flex justify-center">
                         <RouletteBoard

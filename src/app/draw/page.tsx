@@ -50,7 +50,7 @@ export default function DrawPage() {
 
                 {/* 뽑기 */}
                 <div className="w-full flex flex-col items-center gap-1 sm:gap-2 lg:gap-5">
-                    <p className="font-montserrat-bold text-[#E1A743] text-2xl sm:text-[2rem]">랜덤 카드 뽑기</p>
+                    <p className="font-pretendard-bold text-[#E1A743] text-2xl sm:text-[2rem]">랜덤 카드 뽑기</p>
 
                     {displayItems.length > 0 ? (
                         <div className="w-full flex flex-col items-center gap-6 sm:gap-10 lg:gap-15">

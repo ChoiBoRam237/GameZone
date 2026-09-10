@@ -17,7 +17,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             lang="en"
             className={`size-full antialiased`}
         >
-            <body className="min-h-full flex flex-col items-center">{children}</body>
+            <body className="min-w-93.5 overflow-x-auto min-h-full flex flex-col items-center">{children}</body>
         </html>
     );
 }
