@@ -147,6 +147,7 @@ export default function RouletteBoard(props: Props) {
                                 fill="#0C003F"
                                 fontSize="17"
                                 fontWeight="600"
+                                className="animate-[pulse_1s_cubic-bezier(0.4,0,0.6,1)_infinite]"
                             >
                                 아이템을 추가해 주세요
                             </text>

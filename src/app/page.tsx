@@ -24,7 +24,7 @@ export default function Home() {
 
                 <GameCard
                     image={<DrawImage />}
-                    title="랜덤 뽑기"
+                    title="랜덤 카드 뽑기"
                     bgColor="#6731B7"
                     onClick={() => router.push("/draw")}
                 />
