@@ -16,10 +16,10 @@ export default function RoulettePage() {
     const [resultPopupOpen, setResultPopupOpen] = useState<boolean>(false); // 결과 팝업 오픈 여부
 
     return (
-        <div className="size-full flex flex-col gap-3 sm:gap-5 px-6 pb-15 sm:px-12.5 lg:px-28">
+        <div className="size-full flex flex-col items-center gap-3 px-4 pb-15 sm:gap-5 sm:px-12.5 lg:px-5">
             <MainHeader />
 
-            <div className="w-full flex flex-col-reverse items-center gap-12 sm:gap-16 lg:flex-row lg:items-start lg:justify-between">
+            <div className="w-full flex flex-col-reverse items-center gap-12 sm:gap-16 lg:max-w-300 lg:flex-row lg:items-start lg:justify-between">
                 <div className="w-full flex flex-col gap-7 sm:flex-row sm:gap-16 lg:flex-col lg:gap-20">
                     {/* 아이템 추가하기 */}
                     <ItemAdd
@@ -27,7 +27,7 @@ export default function RoulettePage() {
                         setItems={setItems}
                     />
 
-                    {/* 룰렛 목록 */}
+                    {/* 아이템 목록 */}
                     <ItemList
                         items={items}
                         setItems={setItems}

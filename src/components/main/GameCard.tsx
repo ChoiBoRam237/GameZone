@@ -24,7 +24,7 @@ export default function GameCard(props: Props) {
                     className="size-auto flex items-center justify-center py-1 px-4 rounded-md bg-[#00BAE8] sm:py-2 sm:px-5 sm:rounded-lg lg:py-3 lg:px-6 hover:bg-[#0094B9]"
                     onClick={props.onClick}
                 >
-                    <p className="font-pretendard-bold text-base sm:text-lg lg:text-2xl">
+                    <p className="font-pretendard-bold text-base sm:text-lg lg:text-xl">
                         <span className="sm:hidden">PLAY</span>
                         <span className="hidden sm:block">PLAY NOW</span>
                     </p>

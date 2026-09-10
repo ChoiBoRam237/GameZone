@@ -9,7 +9,7 @@ export default function DrawImage() {
         <img
             src={drawImage.src}
             alt="뽑기"
-            className=" w-25 h-23 shrink-0 sm:absolute sm:w-60.25 sm:h-56 sm:top-5 sm:left-[50%] sm:translate-x-[-50%] lg:w-78 lg:h-72"
+            className="size-17 mx-2 sm:size-46 sm:mb-4.5 sm:mx-0 lg:size-57.5 lg:mb-6"
         />
     );
 }
